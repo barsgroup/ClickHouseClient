@@ -166,12 +166,10 @@ namespace Octonica.ClickHouseClient
         }
 
         /// <summary>
-        /// Not supported. To cancel a command execute it asyncronously with an appropriate cancellation token.
+        /// Noop. To cancel a command execute it asyncronously with an appropriate cancellation token.
         /// </summary>
-        /// <exception cref="NotImplementedException">Always throws <see cref="NotImplementedException"/>.</exception>
         public override void Cancel()
         {
-            throw new NotImplementedException();
         }
 
         /// <summary>
